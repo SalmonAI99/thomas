@@ -29,4 +29,6 @@ Open <http://localhost:4000/thomas/>.
 - `assets/pdf/Juntao_Wu_CV.pdf` — downloadable PDF CV.
 - `_config.yml` — site identity and GitHub Pages URL/base path.
 
-The existing deployment workflow builds the site and publishes it to the `gh-pages` branch on pushes to `main`. The repository still needs GitHub Pages enabled and configured to serve from that branch before the site will be public.
+The `Deploy site` workflow in `.github/workflows/deploy.yml` builds the site and publishes it with GitHub's Pages artifact deployment on pushes to `main`.
+
+Before the first successful deploy, enable Pages in **Settings → Pages** and set **Source** to **GitHub Actions**. Do not select a branch as the source.

@@ -4,14 +4,6 @@ title: about
 permalink: /
 subtitle: Computer Engineering at the University of Michigan · Mechanical Engineering at Shanghai Jiao Tong University
 
-profile:
-  align: right
-  image: ""
-  image_circular: false
-  more_info: >
-    <p><a href="mailto:wxhcqjh@163.com">wxhcqjh@163.com</a></p>
-    <p><a href="https://github.com/SalmonAI99">GitHub</a></p>
-
 selected_papers: true
 social: true
 

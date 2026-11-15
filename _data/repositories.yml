@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - SalmonAI99
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - SalmonAI99/research-agent
+  - SalmonAI99/coursify
+  - SalmonAI99/Study-Mate
+  - SalmonAI99/mini-swe-agent

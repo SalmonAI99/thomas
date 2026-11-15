@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+title: DistDebug-Bench accepted at NeurIPS 2026
+date: 2026-11-15
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Our paper, **DistDebug-Bench: Can LLM Agents Diagnose Bugs in Distributed Systems?**, was accepted to the NeurIPS 2026 Evaluations and Datasets Track as a poster.

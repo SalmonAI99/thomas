@@ -1,5 +1,6 @@
 github_users:
   - SalmonAI99
+  - flowithin
 
 repo_description_lines_max: 2
 
@@ -8,3 +9,5 @@ github_repos:
   - SalmonAI99/coursify
   - SalmonAI99/Study-Mate
   - SalmonAI99/mini-swe-agent
+  - flowithin/Mfile
+  - flowithin/lekans

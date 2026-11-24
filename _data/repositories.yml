@@ -7,7 +7,7 @@ repo_description_lines_max: 2
 github_repos:
   - SalmonAI99/research-agent
   - SalmonAI99/coursify
-  - SalmonAI99/Study-Mate
-  - SalmonAI99/mini-swe-agent
+  - flowithin/CrawlingMan
+  - SalmonAI99/agentlang-brain-
   - flowithin/Mfile
   - flowithin/lekans

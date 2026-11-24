@@ -7,13 +7,19 @@ importance: 2
 category: product
 ---
 
-Coursify is a course-authoring prototype that starts with an outline rather than a generated textbook. Authors can work with an AI assistant to decide what to teach and in what order, then draft and revise one lesson at a time. The outline doubles as an editable mind map: moving a topic on the map changes its place in the lesson list.
+Designed for solo educator and developer who want to share their experience without hustling for illustration, slides, etc.
 
-A physics lesson, for example, can combine a Markdown explanation, a LaTeX equation, and a diagram. The author can revise the equation without regenerating the lesson, then turn the module into a shareable slide deck. For a lesson on pendulum motion, the presentation assistant can add a built-in simulation with a chosen pendulum length and starting angle.
+Coursify is efficient. It uses Rust, [Leptos](https://www.leptos.dev/), and SQLite. It embeds the [Nanocode](https://nanocode.xyz/) agent runtime so authors can resume a conversation about the whole course or return to one about a particular module. Slidev builds the presentation decks from the lesson content.
 
-Coursify v2 uses Rust, Leptos, and SQLite. It embeds the Nanocode agent runtime so authors can resume a conversation about the whole course or return to one about a particular module. Slidev builds the presentation decks from the lesson content.
+The idea is that first, AI should exel us is its ability to generate eye catching illustrations. We already prompts them to create all kinds of amazing visual effects; Second, it is good at laying out thoughts process that is easy to understand - We rely on that daily. These two combined gives me the incentivity to create this project.
 
-[View the original Coursify project on GitHub](https://github.com/SalmonAI99/coursify).
+Coursify is also a web app project that implement the [AI Native Software]({{ '/blog/2026/ai-native-software/' | relative_url }}) idea.
+
+## Design
+
+{% include figure.liquid path="assets/img/projects/coursify-design.svg" alt="Design graph: course modules and sessions sit on the Nanocode runtime alongside Agent.md, Notes.md, skills, and web components, connected to a client agent through an MCP server and tools." caption="How a course, its modules, and their agent sessions fit together: the Nanocode runtime supplies the agent loop, skills and notes carry the course context, and an MCP server exposes the authoring tools to a client agent." zoomable=true %}
+
+[Coursify MCPs & Skills](https://github.com/SalmonAI99/coursify).
 
 ## Demo recordings
 
